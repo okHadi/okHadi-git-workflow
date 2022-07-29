@@ -1,0 +1,22 @@
+{
+  "name": "okhadi-git-workflow",
+  "version": "1.0.0",
+  "description": "Repo for a tutorial I'm following to learn github workflow and actions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okHadi/okHadi-git-workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okHadi/okHadi-git-workflow/issues"
+  },
+  "homepage": "https://github.com/okHadi/okHadi-git-workflow#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

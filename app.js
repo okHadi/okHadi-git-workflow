@@ -8,3 +8,5 @@ app.listen(port, () => { console.log("Node Server Started at PORT: " + port); })
 app.get('/', (req, res) => {
     res.send("hello world")
 })
+
+module.exports = app;

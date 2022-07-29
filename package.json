@@ -4,7 +4,6 @@
   "description": "Repo for a tutorial I'm following to learn github workflow and actions",
   "main": "app.js",
   "scripts": {
-    "start": "node src",
     "test": "jest src/app.test.js"
   },
   "repository": {

@@ -1,12 +1,7 @@
-const express = require('express');
-
+const express = require("express");
 const app = express();
-const port = 4301;
 
-app.listen(port, () => { console.log("Node Server Started at PORT: " + port); });
-
-app.get('/', (req, res) => {
-    res.send("hello world")
+app.get("/test", (_req, res) => {
+    res.status(200).send("Hello world")
 })
-
 module.exports = app;
